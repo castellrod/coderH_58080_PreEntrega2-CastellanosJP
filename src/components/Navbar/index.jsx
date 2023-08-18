@@ -1,16 +1,20 @@
 import "./styles.css"
 import CartWidget from "./CartWidget";
 import LogoWigdet from "./LogoWidget";
+import { NavLink, Link} from 'react-router-dom'
 
-function Navbar (){
-    return (<nav className="navbar">
-        <LogoWigdet />
+const Navbar = () => {
+    return (
+    <nav className="navbar">
+        <Link to='/'>
+            <LogoWigdet />
+        </Link>
 
-        <div>
-            <button>Inicio</button>
-            <button>Drones</button>
-            <button>Repuestos</button>
-            <button>Contactenos</button>
+        <div className="Marcas">
+            <NavLink to ={`/marca/DJI`} className={({ isActive }) => isActive ? 'ActiveOption' : 'Option'}>DJI</NavLink>
+            <NavLink to ={`/marca/Parrot`} className={({ isActive }) => isActive ? 'ActiveOption' : 'Option'}>Parrot</NavLink>
+            <NavLink to ={`/marca/DEERC D20`} className={({ isActive }) => isActive ? 'ActiveOption' : 'Option'}>DEERC D20</NavLink>
+            
         </div>
 
         <CartWidget />
