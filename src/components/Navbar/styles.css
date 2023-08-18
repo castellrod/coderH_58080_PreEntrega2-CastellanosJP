@@ -8,17 +8,17 @@
     background-color: darkgray;
 }
 
-button{
+button, .Marcas{
 
     margin: 8px;
 }
 
-button {
+button, .Marcas {
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
 }
 
-button:hover {
+button:hover, .NavLink:hover {
     background-color: #4CAF50; /* Green */
     color: white;
 }

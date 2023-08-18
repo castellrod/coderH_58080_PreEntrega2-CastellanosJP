@@ -13,7 +13,7 @@ const Navbar = () => {
         <div className="Marcas">
             <NavLink to ={`/marca/DJI`} className={({ isActive }) => isActive ? 'ActiveOption' : 'Option'}>DJI</NavLink>
             <NavLink to ={`/marca/Parrot`} className={({ isActive }) => isActive ? 'ActiveOption' : 'Option'}>Parrot</NavLink>
-            <NavLink to ={`/marca/DEERC D20`} className={({ isActive }) => isActive ? 'ActiveOption' : 'Option'}>DEERC D20</NavLink>
+            <NavLink to ={`/marca/DEERC`} className={({ isActive }) => isActive ? 'ActiveOption' : 'Option'}>DEERC</NavLink>
             
         </div>
 
