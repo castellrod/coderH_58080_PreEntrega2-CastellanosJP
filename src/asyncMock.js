@@ -5,7 +5,7 @@ const products =[
         precio: 16000,
         categoria: 'Dron',
         marca:'DJI',
-        img: './src/assets/icons/DD_Logo_x130_bgOr.png',
+        img: '../src/assets/icons/djimavic3.jpg',
         stock: 5,
         descripcion:'Gama alta de Drones DJI, la mejor cámara en drones, los mejor sensores.'
     },
@@ -15,7 +15,7 @@ const products =[
         precio: 12000,
         categoria: 'Dron',
         marca:'DJI',
-        img: './src/assets/icons/DD_Logo.png',
+        img: '../src/assets/icons/djiair2s_retina_small.png',
         stock: 7,
         descripcion:'Gama media de Drones DJI, camara superior, sensores delanteros y traseros.'
     },
@@ -25,7 +25,7 @@ const products =[
         precio: 7500,
         categoria: 'Dron',
         marca:'DJI',
-        img: './src/assets/icons/DD_Logo_x130_bgOr.png',
+        img: '../src/assets/icons/mavic-mini-2-drone.jpg',
         stock: 4,
         descripcion:'Gama baja de Drones DJI, muy buena cámara y fácil de usar.'
     },
@@ -35,7 +35,7 @@ const products =[
         precio: 11500,
         categoria: 'Dron',
         marca:'Parrot',
-        img: './src/assets/icons/DD_Logo.png',
+        img: '../src/assets/icons/parrot-anafi-work-uav_1900.jpeg',
         stock: 6,
         descripcion:'Gama media de Parrot, muy buena cámara y fácil de usar.'
     },
@@ -45,7 +45,7 @@ const products =[
         precio: 1200,
         categoria: 'Dron',
         marca:'DEERC',
-        img: './src/assets/icons/DD_Logo_x130_bgOr.png',
+        img: '../src/assets/icons/DEERCD20_1366_2000.jpg',
         stock: 4,
         descripcion:'Gama baja de Drones DEERC, econonico y divertido.'
     }

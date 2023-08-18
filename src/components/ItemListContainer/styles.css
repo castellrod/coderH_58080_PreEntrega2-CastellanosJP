@@ -1,9 +1,9 @@
-.item-l-c{
+.item-l-c, .item-list-container{
     display: flex;
     padding: auto;
     flex-direction: column;
     flex-wrap: wrap;
-    align-items: flex-start;
+    align-items:flex-start;
     align-content: center;
     gap: 10px;
     width: 90%;
@@ -12,7 +12,7 @@
     padding: 15px;
 }
 
-.item-hijo{
+.item-hijo, .item{
    /* align-items: center;*/
     
    /* max-width: 100px;*/
@@ -30,3 +30,5 @@
     margin-left: 10px;
     max-height: 400px;
 }
+
+
